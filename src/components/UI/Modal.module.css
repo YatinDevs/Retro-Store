@@ -1,0 +1,45 @@
+/*
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 110%;
+  z-index: 9;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform-origin: 50% 50%;
+  background-color: rgb(0, 0, 0, 0.55);
+  pointer-events: none;
+  overflow: hidden;
+
+*/
+.modalBackdrop {
+  /* border: 2px solid red; */
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  background-color: rgba(50, 50, 50, 0.8);
+}
+.modalContent {
+  /* border: 2px solid red; */
+  z-index: 2;
+  background-color: #fff;
+  position: fixed;
+  max-width: 1280px;
+  width: 90%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform-origin: 50% 50%;
+  max-height: 700px;
+  height: 75%;
+  overflow-y: auto;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}

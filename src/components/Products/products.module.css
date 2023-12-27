@@ -1,0 +1,18 @@
+.products {
+  /* border: 2px solid #343434; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 2rem;
+  gap: 1rem;
+}
+@media screen and (max-width: 900px) {
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .products {
+    grid-template-columns: 1fr;
+  }
+}
